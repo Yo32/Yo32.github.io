@@ -1,11 +1,29 @@
 body {
   background-color: white;
 }
+.test {
+  border: 1px solid #000;
+  margin: 3px;
+  padding: 3px;
+}
+
+#content-wrap {
+  border-color: blue;
+}
+#left-sidebar {
+  width: 30%;
+  float: left;
+  border-color: red;
+}
+#content {
+  padding-left: 30%;
+  border-color: green;
+}
 .page-block {
   background-color: lightslategray;
-  padding: 10px;
+  padding: 24px;
   margin: 10px;
-  border: 1px solid #777777;
+  border-radius: 2px;
 }
 #top-menu-bar {
   text-align: center;
