@@ -5,28 +5,71 @@
 	<meta charset="UTF-8" />
 	<link href="css/style.css">
 </head>
+<style>
+	table,
+	th,
+	td {
+		border: 1px solid black;
+	}
+</style>
 
 <body>
 
-	<h1 style="text-align: center">CV</h1>
-	<p>Miclea Alexandru</p>
-<img></img>
-	<p>jobless</p>
 
-	<h2>Skills:</h2>
-	<ul>
-		<li class="favorite">- PS (basic)</li>
-		<li>- Cinema 4D (basic)</li>
+	<h1 style="text-align: center">CV</h1>
+	<p><strong>Miclea Alexandru</strong></p>
+	<img></img>
+
+
+
+
+	<ul id="top-menu-bar">
+		<li>
+			<a href="#"> Home</a>
+
+		</li>
+
+
+		<li>
+			<a href="#"> Skills</a>
+
+		</li>
+
+		<li>
+			<a href="#"> Languages</a>
+
+		</li>
+
+		<li>
+			<a href="#"> Contact</a>
+
+		</li>
+
+		<li>
+			<a href="#"> Home</a>
+
+		</li>
 	</ul>
-	<div>
-		<h2>Languages</h2>
-		<table border="1">
+
+	<div class="page-block">
+		<h2>Skills:</h2>
+		<ul>
+			<li>- PS (basic)</li>
+			<li>- Cinema 4D (basic)</li>
+			<li>- HTML (basic)</li>
+			<li>- CSS (basic)</li>
+	</div>
+	</ul>
+	<div class="page-block">
+
+		<table {border: 10px solid black;} style="width:30%">
+			<tr>
+				<th align=center>Languages</th>
+				<th align=center>Level</th>
+			</tr>
 			<tr>
 				<td>RO</td>
 				<td>Advanced</td>
-			</tr>
-
-
 			</tr>
 			<tr>
 				<td>ENG</td>
@@ -34,28 +77,30 @@
 			</tr>
 			<tr>
 				<td> HUN </td>
-				<td>Basic</td>
-
+				<td> Basic </td>
 			</tr>
 
 		</table>
+
 	</div>
-<h2>Contact</h2>
-<form>
-<label>Your email</label>
-<input name="recuterEmail" type="email">
-<button> Send </button>
+
+	<p><strong>Status:</strong> unemployed</p>
+	<h2>Contact</h2>
+	<form>
+		<label>Your email</label>
+		<input name="recuterEmail" type="email">
+		<button> Send </button>
 
 
 
 
-</form>
+
+	</form>
 
 
 
 
-	<div id="app"></div>
-	<script src="src/index.js"></script>
+
 </body>
 
 </html>

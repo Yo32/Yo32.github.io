@@ -1,13 +1,33 @@
 body {
-  background-color: grey;
-}
-div {
   background-color: white;
+}
+.page-block {
+  background-color: lightslategray;
   padding: 10px;
   margin: 10px;
   border: 1px solid #777777;
 }
-#favorite {
-  font-weight: bold;
-  color: darkred;
+#top-menu-bar {
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 109, 15);
+}
+#top-menu-bar li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+#top-menu-bar a {
+  padding: 0 15px 0 15px;
+  margin: 2px 0 2px 0;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#top-menu-bar a:hover {
+  color: #334455;
+  background-color: #00c51a;
+}
+#top-menu-bar a:visited {
+  color: #29207e;
 }
